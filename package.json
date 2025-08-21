@@ -1,0 +1,23 @@
+{
+  "name": "atapdf-final",
+  "version": "1.0.0",
+  "description": "Modern PDF İşleme Uygulaması - React + Node.js SPA",
+  "scripts": {
+    "start": "npm run start:backend & npm run start:frontend",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "test": "echo \"Tests not implemented yet\""
+  },
+  "keywords": [
+    "pdf",
+    "react",
+    "nodejs",
+    "spa",
+    "pdf-merger",
+    "pdf-tools"
+  ],
+  "author": "ATAPDF Team",
+  "license": "MIT"
+}
